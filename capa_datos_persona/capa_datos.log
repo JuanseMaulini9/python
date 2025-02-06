@@ -1,0 +1,172 @@
+10:49:14 AM: DEBUG [logger_base.py:17] mensaje a nivel debug
+10:49:14 AM: INFO [logger_base.py:18] mensaje a nivel de info
+10:49:14 AM: WARNING [logger_base.py:19] mesanje a nivel de warning
+10:49:14 AM: ERROR [logger_base.py:20] mesanje a nivel de error
+10:49:14 AM: CRITICAL [logger_base.py:21] mesanje a nivel de critical
+10:57:36 AM: DEBUG [persona.py:47] 
+      Id persona: 1, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+10:59:01 AM: DEBUG [persona.py:47] 
+      Id persona: 1, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+11:00:27 AM: DEBUG [persona.py:47] 
+      Id persona: 1, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+11:00:27 AM: DEBUG [persona.py:51] 
+      Id persona: None, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+11:01:53 AM: DEBUG [persona.py:47] 
+      Id persona: Luffy, Nombre: Monkey D.,
+      Apellido: luffy@mail.com, Mail: 1
+  
+11:01:53 AM: DEBUG [persona.py:51] 
+      Id persona: None, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+11:02:41 AM: DEBUG [persona.py:47] 
+      Id persona: Luffy, Nombre: Monkey D.,
+      Apellido: luffy@mail.com, Mail: 1
+  
+11:02:41 AM: DEBUG [persona.py:51] 
+      Id persona: None, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+11:02:41 AM: DEBUG [persona.py:55] 
+      Id persona: 1, Nombre: None,
+      Apellido: None, Mail: None
+  
+11:18:35 AM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x0000019AEDAB7010; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:18:58 AM: ERROR [conexion.py:22] Ocurrio un error al obtener la conexion: 'utf-8' codec can't decode byte 0xf3 in position 79: invalid continuation byte
+11:19:13 AM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x0000022D3C737010; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:19:26 AM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x000001DC40FD7010; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:19:26 AM: DEBUG [conexion.py:32] Se abrio correctamente el cursor: <cursor object at 0x000001DC42872CE0; closed: 0>
+11:31:08 AM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x000002B2F8401690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:37:57 AM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x000001E93C491690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:37:57 AM: DEBUG [persona_dao.py:31] 
+      Id persona: 4, Nombre: Zoro,
+      Apellido: Roronoa, Mail: zoro@mail.com
+  
+11:37:57 AM: DEBUG [persona_dao.py:31] 
+      Id persona: 5, Nombre: Sanji,
+      Apellido: Vinsmoke, Mail: sanji@mail.com
+  
+11:37:57 AM: DEBUG [persona_dao.py:31] 
+      Id persona: 9, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+11:37:57 AM: DEBUG [persona_dao.py:31] 
+      Id persona: 10, Nombre: Chopper,
+      Apellido: Tony Tony, Mail: chopper@mail.com
+  
+11:37:57 AM: DEBUG [persona_dao.py:31] 
+      Id persona: 11, Nombre: Nami,
+      Apellido: , Mail: nami@mail.com
+  
+11:37:57 AM: DEBUG [persona_dao.py:31] 
+      Id persona: 12, Nombre: Franky,
+      Apellido: , Mail: supeeeeeeer@mail.com
+  
+11:45:38 AM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x0000021E01E2B010; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:45:38 AM: DEBUG [persona_dao.py:34] Persona insertada: 
+      Id persona: None, Nombre: Brook,
+      Apellido: , Mail: soulking@mail.com
+  
+11:45:38 AM: DEBUG [persona_dao.py:43] Personas insertadas: 1
+11:45:38 AM: DEBUG [persona_dao.py:48] 
+      Id persona: 4, Nombre: Zoro,
+      Apellido: Roronoa, Mail: zoro@mail.com
+  
+11:45:38 AM: DEBUG [persona_dao.py:48] 
+      Id persona: 5, Nombre: Sanji,
+      Apellido: Vinsmoke, Mail: sanji@mail.com
+  
+11:45:38 AM: DEBUG [persona_dao.py:48] 
+      Id persona: 9, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+11:45:38 AM: DEBUG [persona_dao.py:48] 
+      Id persona: 10, Nombre: Chopper,
+      Apellido: Tony Tony, Mail: chopper@mail.com
+  
+11:45:38 AM: DEBUG [persona_dao.py:48] 
+      Id persona: 11, Nombre: Nami,
+      Apellido: , Mail: nami@mail.com
+  
+11:45:38 AM: DEBUG [persona_dao.py:48] 
+      Id persona: 12, Nombre: Franky,
+      Apellido: , Mail: supeeeeeeer@mail.com
+  
+11:45:38 AM: DEBUG [persona_dao.py:48] 
+      Id persona: 13, Nombre: Brook,
+      Apellido: soulking@mail.com, Mail: soulking@mail.com
+  
+12:30:17 PM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x000001A9F7DCB120; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:30:17 PM: DEBUG [conexion.py:32] Se abrio correctamente el cursor: <cursor object at 0x000001A9F98935A0; closed: 0>
+12:30:17 PM: DEBUG [persona_dao.py:43] Persona actualizada: 
+      Id persona: 4, Nombre: Jimbe,
+      Apellido: , Mail: caballerodelmar@mail.com
+  
+12:30:17 PM: DEBUG [persona_dao.py:56] Personas actualizadas: 1
+12:30:17 PM: DEBUG [persona_dao.py:61] 
+      Id persona: 4, Nombre: Jimbe,
+      Apellido: caballerodelmar@mail.com, Mail: caballerodelmar@mail.com
+  
+12:30:17 PM: DEBUG [persona_dao.py:61] 
+      Id persona: 5, Nombre: Sanji,
+      Apellido: Vinsmoke, Mail: sanji@mail.com
+  
+12:30:17 PM: DEBUG [persona_dao.py:61] 
+      Id persona: 9, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+12:30:17 PM: DEBUG [persona_dao.py:61] 
+      Id persona: 10, Nombre: Chopper,
+      Apellido: Tony Tony, Mail: chopper@mail.com
+  
+12:30:17 PM: DEBUG [persona_dao.py:61] 
+      Id persona: 11, Nombre: Nami,
+      Apellido: , Mail: nami@mail.com
+  
+12:30:17 PM: DEBUG [persona_dao.py:61] 
+      Id persona: 12, Nombre: Franky,
+      Apellido: , Mail: supeeeeeeer@mail.com
+  
+12:30:17 PM: DEBUG [persona_dao.py:61] 
+      Id persona: 13, Nombre: Brook,
+      Apellido: soulking@mail.com, Mail: soulking@mail.com
+  
+12:40:23 PM: DEBUG [conexion.py:19] Conexion exitosa: <connection object at 0x00000294BCE0B010; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:40:23 PM: DEBUG [conexion.py:32] Se abrio correctamente el cursor: <cursor object at 0x00000294BE8835A0; closed: 0>
+12:40:23 PM: DEBUG [persona_dao.py:52] Objeto eliminado: 
+      Id persona: 4, Nombre: None,
+      Apellido: None, Mail: None
+  
+12:40:23 PM: DEBUG [persona_dao.py:70] Personas eliminadas; 1
+12:40:23 PM: DEBUG [persona_dao.py:75] 
+      Id persona: 5, Nombre: Sanji,
+      Apellido: Vinsmoke, Mail: sanji@mail.com
+  
+12:40:23 PM: DEBUG [persona_dao.py:75] 
+      Id persona: 9, Nombre: Luffy,
+      Apellido: Monkey D., Mail: luffy@mail.com
+  
+12:40:23 PM: DEBUG [persona_dao.py:75] 
+      Id persona: 10, Nombre: Chopper,
+      Apellido: Tony Tony, Mail: chopper@mail.com
+  
+12:40:23 PM: DEBUG [persona_dao.py:75] 
+      Id persona: 11, Nombre: Nami,
+      Apellido: , Mail: nami@mail.com
+  
+12:40:23 PM: DEBUG [persona_dao.py:75] 
+      Id persona: 12, Nombre: Franky,
+      Apellido: , Mail: supeeeeeeer@mail.com
+  
+12:40:23 PM: DEBUG [persona_dao.py:75] 
+      Id persona: 13, Nombre: Brook,
+      Apellido: soulking@mail.com, Mail: soulking@mail.com
+  
