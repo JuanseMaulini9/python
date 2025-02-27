@@ -28,6 +28,24 @@ print("Inicia con x texto",contenido.startswith("En GlobalMentoring.com.mx"))
 print("Termina con x cadena", contenido.lower().endswith("GlobalMentoring.com.mx".lower()))
 
 mensaje = "Hola Mundo"
-print("contiene todos sus caracteres en minusculas?",mensaje.lower().islower())
+print("contiene todos sus caracteres en minusculas?", mensaje.lower().islower())
 print("contiene todos sus caracteres en mayusculas?", mensaje.upper().isupper())
+
+#reemplazar contenido 
+print(contenido.replace(" ","-"))
+
+# Eliminar caracteres al inicio y final de una cadena -strip
+titulo = " *** One Piece *** "
+print("cadena original", titulo)
+print("cadena stripeada", titulo.strip())
+
+titulo = "***One Piece***".strip("*")
+print(titulo)
+titulo = "***One Piece***".rstrip("*")
+print(titulo)
+titulo = "***One Piece***".lstrip("*")
+print(titulo)
+
+titulo = " *** One Piece *** ".strip().strip("*").strip()
+print(titulo)
 
