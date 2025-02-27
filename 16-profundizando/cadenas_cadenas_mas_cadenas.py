@@ -36,12 +36,33 @@
 # print("Serpiente:", "\U0001f40d")
 
 # Caracteres ascii
-caracter = chr(65)
-print("A:",caracter)
+# caracter = chr(65)
+# print("A:",caracter)
 
-caracter = chr(64)
-print("@:",caracter)
+# caracter = chr(64)
+# print("@:",caracter)
 
-caracter = chr(97)
-print("a:",caracter)
+# caracter = chr(97)
+# print("a:",caracter)
 
+caracteres_en_bytes = b"Hola Mundo"
+print(caracteres_en_bytes)
+
+mensaje = b"Universidad python"
+print(mensaje[0])
+print(chr(mensaje[0]))
+
+lista_caracteres = mensaje.split()
+print(lista_caracteres)
+
+# Convertir de str a bytes
+string = 'Programación con Python'
+print("string original:", string)
+
+bytes = string.encode("UTF-8")
+print("bytes codificado:", bytes)
+
+# Convertir de bytes a string
+string2 = bytes.decode("UTF-8")
+print("string decodificado:", string2)
+print(string == string2)
