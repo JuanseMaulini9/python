@@ -85,3 +85,4 @@ print(nombres1)
 #built-in reversed
 nombres1= reversed(nombres1)
 print(list(nombres1))
+
